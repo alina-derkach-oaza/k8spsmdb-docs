@@ -315,7 +315,7 @@ Custom configuration options for mongod. Please refer to the [official manual  :
 
 | Value type  | Example    |
 | ----------- | ---------- |
-| :material-code-string: string     | <pre>&#124;<br>net:<br>  tls:<br>    mode: preferTLS<br>operationProfiling:<br>  mode: slowOp<br>systemLog:<br>  verbosity: 1<br>storage:<br>  engine: wiredTiger<br>  wiredTiger:<br>    engineConfig:<br>      directoryForIndexes: false<br>      journalCompressor: snappy<br>    collectionConfig:<br>      blockCompressor: snappy<br>    indexConfig:<br>      prefixCompression: true</pre> |
+| :material-code-string: string     | `<pre>&#124;<br>net:<br>  tls:<br>    mode: preferTLS<br>operationProfiling:<br>  mode: slowOp<br>systemLog:<br>  verbosity: 1<br>storage:<br>  engine: wiredTiger<br>  wiredTiger:<br>    engineConfig:<br>      directoryForIndexes: false<br>      journalCompressor: snappy<br>    collectionConfig:<br>      blockCompressor: snappy<br>    indexConfig:<br>      prefixCompression: true</pre>` |
 
 ### `replsets.affinity.antiAffinityTopologyKey`
 
